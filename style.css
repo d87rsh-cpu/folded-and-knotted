@@ -220,6 +220,25 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--rust); outline-
   font-size: 14px;
 }
 
+.watch-card {
+  margin: 28px 0;
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 28px;
+  text-align: center;
+}
+.watch-card .ring {
+  width: 52px; height: 52px;
+  border: 1.5px solid var(--rust);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--rust);
+  font-size: 18px;
+  margin: 0 auto 16px;
+}
+.watch-card .title { font-family: 'Lora', serif; font-size: 17px; margin-bottom: 6px; }
+.watch-card .sub { font-size: 13px; color: var(--ink-soft); margin-bottom: 18px; }
+
 .materials { padding: 8px 0 56px; }
 .materials h2 { font-size: 20px; margin-bottom: 4px; }
 .materials .note { font-size: 13px; color: var(--ink-soft); margin-bottom: 20px; }
